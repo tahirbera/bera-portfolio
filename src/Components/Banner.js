@@ -32,7 +32,7 @@ const Banner = () => {
                 <br></br>
                 When since that day, I try to be a good front-end web developer.
                 <br></br>
-                I am still making new projects to imrpove my knowledge.
+                I am still making new projects to improve my knowledge.
                 <br></br>
                 Here are my skills;
                 <br></br>

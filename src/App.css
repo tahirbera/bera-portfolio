@@ -1,38 +1,215 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+
+
+ul, ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Projects header and background  start*/
+.background-image{
+  position: absolute;
+  background-image: url('images/portfolio-bg.jpg');
+  background-size: cover; 
+  background-position: center; 
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.background-image.newSecondActive{
+  height: 150vh;
+}
+.header-section{
+  position: sticky;
+  color: white;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.096);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+.header-ul{
+  display: flex;
+  justify-content: space-between;
+}
+.header-ul li{
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 3%;
+  padding-left: 15%;
+  justify-content: left;
+
 }
 
-.App-link {
-  color: #61dafb;
+.active{
+  background-color: rgba(0, 0, 0, 0.247);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.upper-h2{
+  font-size: 3rem;
+  font-weight: 200;
+  width: 80%;
+  text-align: left;
+  background-color: rgba(255, 228, 196, 0.322);
+  margin-bottom: 2%;
+}
+
+.bottom-h2{
+  background-color: rgba(128, 128, 128, 0.356);
+  font-size: 2rem;
+  text-align: left;
+  width: 60%;
+  font-weight: 100;
+  margin-bottom: 2%;
+
+}
+
+.skills-list{
+  display: flex;
+}
+
+.history-h2{
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.history-p{
+  font-size: 1rem;
+  line-height: 2rem;
+  width: 80%;
+}
+@media (max-width: 1080px) {
+  .header-section{
+    background-color: black;
   }
-  to {
-    transform: rotate(360deg);
+  .banner{
+    justify-content: left;
+    padding-left: 2%;
   }
+  .upper-h2{
+    font-size: 2rem;
+    text-align: left;
+    background-color: rgba(255, 228, 196, 0.37);
+  }
+  .bottom-h2{
+    margin-top: 2%;
+    font-size: 2rem;
+    text-align: left;
+    background-color: rgba(250, 235, 215, 0.151);
+
+  }
+  .history-h2{
+    font-size: 3rem;
+  }
+  
+.active{
+  background-color: rgba(128, 128, 128, 0.432);
+}
+}
+/* Projects header and background  end*/
+
+/* Contact Start */
+.contact{
+  display: flex;
+  margin-top: 3%;
+  width: 75%;
+  margin: auto;
+  height: 90vh;
+  justify-content: space-between;
+}
+.contact-projects{
+  display: grid;
+  width: 75%;
+  margin: auto;
+  height: 90vh;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.address, .mail, .number, .bionluk{
+  padding-top: 3%;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 25vh;
+  
+}
+
+.contact-h2{
+  font-weight: 300;
+}
+
+
+.contact-logo{
+  border: solid;
+  width: 90%;
+  margin: auto;
+  height: 25vh;
+}
+
+.contact-logo-projects{
+  border: solid;
+  width: 95%;
+  margin: auto;
+  height: 25vh;
+}
+
+.contact-image{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+
+}
+.contact-image:hover{
+  opacity: 1;
+}
+@media (max-width: 1080px) {
+  .contact, .contact-projects{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .address, .mail, .number, .bionluk{
+    padding-top: 3%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;    
+    height: 50%;
+  }
+
+  .background-image.newActive{
+    height: 200vh;
+  }
+  .background-image.background-image.newSecondActive{
+    height: 300vh;
+  }
+  
+  
+}
+
+.project-a:hover{
+  
+  color: red;
+  font-weight: bold;
 }

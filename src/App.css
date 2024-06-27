@@ -19,7 +19,7 @@ a{
 /* Projects header and background  start*/
 .background-image{
   position: absolute;
-  background-image: url('images/portfolio-bg.jpg');
+  background-image: url('images/portfolio-bg.webp');
   background-size: cover; 
   background-position: center; 
   width: 100%;
@@ -30,7 +30,6 @@ a{
   height: 150vh;
 }
 .header-section{
-  position: sticky;
   color: white;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.096);

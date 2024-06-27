@@ -27,7 +27,7 @@ a{
   z-index: -1;
 }
 .background-image.newSecondActive{
-  height: 150vh;
+  height: 200vh;
 }
 .header-section{
   color: white;
@@ -201,7 +201,7 @@ a{
     height: 200vh;
   }
   .background-image.background-image.newSecondActive{
-    height: 300vh;
+    height: 350vh;
   }
   
   

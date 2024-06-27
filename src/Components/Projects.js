@@ -1,13 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import web1 from '../images/web1.png';
 import web2 from '../images/web2.png';
 import web3 from '../images/web3.png';
 import web4 from '../images/web4.png';
 import web5 from '../images/web5.png';
+import web6 from '../images/web6.png';
 
 const Projects = () => {
   return (
     <div className='contact-projects'>
+
+      <div className='address'>
+        <div className='contact-logo-projects'>
+            <img  className='contact-image' src={web6} />
+        </div>
+        <h2 className='contact-h2'> PT Selim Sarı</h2>
+        <p style={{opacity: '0.7'}}>React.JS / HTML / CSS</p>
+        <p><a className='project-a' href='https://github.com/tahirbera/personal-trainer'>Github</a> </p>
+        <p><a className='project-a' href='https://www.ptselimsari.com'>Live Website</a></p>
+      </div>
 
       <div className='address'>
         <div className='contact-logo-projects'>

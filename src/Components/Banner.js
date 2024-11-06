@@ -20,7 +20,7 @@ const Banner = () => {
             Hi my name is Tahir Bera
         </h2>
         <h2 className='bottom-h2'>
-        I am Front-End Developer
+        I am Web Developer
 
         </h2>
         <div>
@@ -51,6 +51,8 @@ const Banner = () => {
                     <li>4.2. React Hooks <PiWebhooksLogo />
                     </li>
                     <li>5. MySQL  <SiMysql />
+                    </li>
+                    <li>6. Next.JS  
                     </li>
                 </ol>   
                 

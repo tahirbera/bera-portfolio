@@ -16,10 +16,21 @@ const Projects = () => {
         <div className='contact-logo-projects'>
             <img  className='contact-image' src={web8} />
         </div>
+        <h2 className='contact-h2'>Özer Hafriyat</h2>
+        <p style={{opacity: '0.7'}}>Next.JS / HTML / CSS</p>
+        <p><a className='project-a' href='https://github.com/haliyikama1/Yeni-klas-r'>Github</a> </p>
+        <p><a className='project-a' href='https://www.ozerhafriyat.com/'>Website</a></p>
+      </div>
+
+
+      <div className='address'>
+        <div className='contact-logo-projects'>
+            <img  className='contact-image' src={web8} />
+        </div>
         <h2 className='contact-h2'>Acil Mazot</h2>
         <p style={{opacity: '0.7'}}>Next.JS / HTML / CSS</p>
         <p><a className='project-a' href='https://github.com/haliyikama1/mazot'>Github</a> </p>
-        <p><a className='project-a' href='https://www.ekremkoltukyikama.com.tr/'>Live Website</a></p>
+        <p><a className='project-a' href='https://www.ekremkoltukyikama.com.tr/'>Website</a></p>
       </div>
 
       <div className='address'>

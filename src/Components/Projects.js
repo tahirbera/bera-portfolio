@@ -5,42 +5,41 @@ import web3 from '../images/web3.png';
 import web4 from '../images/web4.png';
 import web5 from '../images/web5.png';
 import web6 from '../images/web6.png';
-import web7 from '../images/web7.png';
-import web8 from '../images/web8.png';
-
+import ozer from "../images/ozer.png"
+import acil from "../images/acil.png"
+import ekrem from "../images/ekrem.png"
 const Projects = () => {
   return (
     <div className='contact-projects'>
 
       <div className='address'>
         <div className='contact-logo-projects'>
-            <img  className='contact-image' src={web8} />
+            <img  className='contact-image' src={ozer} />
         </div>
         <h2 className='contact-h2'>Özer Hafriyat</h2>
         <p style={{opacity: '0.7'}}>Next.JS / HTML / CSS</p>
         <p><a className='project-a' href='https://github.com/haliyikama1/Yeni-klas-r'>Github</a> </p>
         <p><a className='project-a' href='https://www.ozerhafriyat.com/'>Website</a></p>
       </div>
-
-
+ 
       <div className='address'>
         <div className='contact-logo-projects'>
-            <img  className='contact-image' src={web8} />
+            <img  className='contact-image' src={acil} />
         </div>
         <h2 className='contact-h2'>Acil Mazot</h2>
         <p style={{opacity: '0.7'}}>Next.JS / HTML / CSS</p>
         <p><a className='project-a' href='https://github.com/haliyikama1/mazot'>Github</a> </p>
-        <p><a className='project-a' href='https://www.ekremkoltukyikama.com.tr/'>Website</a></p>
+        <p><a className='project-a' href='https://www.acilmazot.com/'>Website</a></p>
       </div>
 
       <div className='address'>
         <div className='contact-logo-projects'>
-            <img  className='contact-image' src={web7} />
+            <img  className='contact-image' src={ekrem} />
         </div>
-        <h2 className='contact-h2'> Ekrem Koltuk Yıkama</h2>
-        <p style={{opacity: '0.7'}}>Next.JS / HTML / CSS</p>
-        <p><a className='project-a' href='https://github.com/haliyikama1/haliyikama'>Github</a> </p>
-        <p><a className='project-a' href='https://www.ekremkoltukyikama.com.tr/'>Live Website</a></p>
+        <h2 className='contact-h2'>Ekrem Koltuk Yıkama</h2>
+        <p style={{opacity: '0.7'}}>React.JS / HTML / CSS</p>
+        <p><a className='project-a' href='https://github.com/haliyikama1'>Github</a> </p>
+        <p><a className='project-a' href='https://www.ekremkoltukyikama.com.tr/'>Website</a></p>
       </div>
 
       <div className='address'>
@@ -50,7 +49,7 @@ const Projects = () => {
         <h2 className='contact-h2'> PT Selim Sarı</h2>
         <p style={{opacity: '0.7'}}>React.JS / HTML / CSS</p>
         <p><a className='project-a' href='https://github.com/tahirbera/personal-trainer'>Github</a> </p>
-        <p><a className='project-a' href='https://www.ptselimsari.com'>Live Website</a></p>
+        <p><a className='project-a' href='https://www.ptselimsari.com'>Website</a></p>
       </div>
 
       <div className='address'>
@@ -83,8 +82,8 @@ const Projects = () => {
         <p><a className='project-a' href='https://github.com/tahirbera/blog-app'>Github</a> </p>
         <p><a className='project-a' href='https://blog-app-five-woad.vercel.app/'>Live Server</a></p>
       </div>
- 
-      <div className='bionluk special'>
+
+      <div className='bionluk'>
         <div className='contact-logo-projects'>
            <img  className='contact-image' src={web2} />
         </div>
@@ -94,7 +93,7 @@ const Projects = () => {
         <p><a className='project-a' href='https://editablet-shirt.vercel.app/'>Live Server</a></p>
       </div>
 
-      <div className='bionluk special'>
+      <div className='bionluk'>
       <div className='contact-logo-projects'>
       <img  className='contact-image' src={web4} />
         </div>
@@ -105,7 +104,7 @@ const Projects = () => {
       </div>
 
 
-      <div className='bionluk special'>
+      <div className='bionluk'>
       <div className='contact-logo-projects'>
       <img  className='contact-image' src='https://www.webfx.com/wp-content/uploads/2022/08/github-logo.png' />
         </div>

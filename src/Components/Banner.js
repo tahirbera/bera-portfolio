@@ -52,6 +52,8 @@ const Banner = () => {
                     </li>
                     <li>5. MySQL  <SiMysql />
                     </li>
+                    <li>6. Next.JS  <FaReact />
+                    </li>
                 </ol>   
                 
                 
